@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../assets/logo.png";
 import { RxDashboard } from "react-icons/rx";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { MdOutlineContentCopy } from "react-icons/md";
@@ -9,7 +9,7 @@ import { FiSettings } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import SideNavItem from "./SideNavItem";
 
-const Sidebar = () => {
+const SideNav = () => {
   return (
     <main
       style={{ background: "#0F1222" }}
@@ -39,4 +39,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default SideNav;

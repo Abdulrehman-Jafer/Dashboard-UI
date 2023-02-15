@@ -1,17 +1,17 @@
-/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Slab', serif;
+   
 }
 a{
     text-decoration: none;
 }
 body{
     background: #F5F5F5;
-    /* background: black; */
 }
 .borderBottom{
     border-bottom: 3px solid rgb(226, 222, 222);
@@ -19,6 +19,18 @@ body{
 .translateY{
     transform: translateY(0.2rem);
     padding-left: 0.5rem;
+}
+.transformX{
+    display: block;
+    animation: translateX 500ms linear;
+}
+@keyframes translateX {
+    0%{
+        transform: translateX(-10rem);
+    }
+    100%{
+        transform: translateX(0rem);
+    }
 }
 @media screen and (max-width:600px) {
     .mediaScreenGraph{

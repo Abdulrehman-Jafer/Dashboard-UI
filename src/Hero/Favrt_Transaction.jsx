@@ -1,6 +1,6 @@
 import React from 'react'
-import Avatar2 from "../images/Avatar2.png"
-import Avatar3 from "../images/Avatar3.png"
+import Avatar2 from "../assets/Avatar2.png"
+import Avatar3 from "../assets/Avatar3.png"
 const Favrt_Transaction = () => {
     return (
         <main className="flex flex-col gap-5 bg-white p-3 rounded-lg">

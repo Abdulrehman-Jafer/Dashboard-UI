@@ -1,7 +1,7 @@
 import React from "react";
-import Avatar2 from "../images/Avatar2.png";
-import Avatar3 from "../images/Avatar3.png";
-import Avatar1 from "../images/Avatar.png";
+import Avatar2 from "../assets/Avatar2.png";
+import Avatar3 from "../assets/Avatar3.png";
+import Avatar1 from "../assets/Avatar.png";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import TransactionDetails from "./TransactionDetails";
 
@@ -10,9 +10,7 @@ const Transaction = () => {
     <main className="bg-white py-3 w-[95%] mx-auto px-[1rem]">
       <section className="flex items-center justify-between mb-8">
         <div className="font-bold">Transactions</div>
-        <div className="p-1 bg-orange-50 cursor-pointer hover:bg-orange-200 rounded-[50%]">
-          {<BiDotsVerticalRounded />}
-        </div>
+        <BiDotsVerticalRounded className="p-1 bg-orange-100 cursor-pointer hover:bg-orange-200 rounded-[50%]" />
       </section>
       <section className="flex flex-col gap-3">
         <div className="flex justify-between px-3 py-3 border items-center">
